@@ -9,9 +9,8 @@ import Projects from './components/Projects.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
   <Routes>
-    <Route path='/' element={<App/>}/>
-    <Route path='/projects' element={<Projects/>}/>
-
+    <Route path='/pfl-layout' element={<App/>}/>
+    <Route path='/pfl-layout/projects' element={<Projects/>}/>
   </Routes>
 </BrowserRouter>,
 )
