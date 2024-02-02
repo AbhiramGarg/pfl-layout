@@ -50,7 +50,7 @@ const Aboutme = () => {
         scrollTrigger: {
           trigger: '.aboutme',
           pin: true,
-          start:'top -5px',
+          start:'top top',
           scrub: 1,
           end: '+=3000',
         },
