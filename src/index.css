@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(199, 249, 204);
+  font-family: 'Poppins','Open Sans';
+  
+}
+
+.container{
+  margin: auto;
+  overflow: hidden;
+  align-items: center;
+  max-width: 1440px;
+}
+.skill_container{
+  margin: auto;
+  align-items: center;
+  background-color: #a1e2a182;
+}
+.disappear{
+  opacity: 0;
+}
+.appear{
+  opacity: 1;
+  transition: all ease-in 1.5s;
+}
